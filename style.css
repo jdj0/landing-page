@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.logo {
+    font-family: monospace;
+    font-size: 24px;
+}
+
+ul, li {
+    list-style: none;
+    color: #6d747d;
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: white;
+}
+
+nav, ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
