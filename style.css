@@ -26,3 +26,46 @@ nav, ul {
     align-items: center;
     gap: 25px;
 }
+
+.hero {
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.hero-text {
+    font-size: 32px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 900;
+    margin: 10px;
+}
+
+.hero-subtext {
+    font-family: sans-serif;
+    color: #6d747d;
+    margin: 10px;
+}
+
+.hero-texts {
+    flex-basis: 400px;
+}
+
+.hero-image {
+    height: 200px;
+    width: 400px;
+    background-color: #6d747d;
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+    font-family: sans-serif;
+    padding: 8px 25px;
+    text-align: center;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
