@@ -69,3 +69,50 @@ button {
     border: none;
     border-radius: 10px;
 }
+
+.info {
+    height: 400px;
+    background-color: white;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.info-text {
+    width: 150px;
+    color: #6d747d;
+    width: 150px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.info-box {
+    height: 150px;
+    width: 150px;
+    border: solid #3882F6;
+    border-width: 4px;
+    border-radius: 15px;
+
+}
+
+.info-boxes {
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.quote {
+    height: 400px;
+    background-color: #E5E7EB;
+}
+
+.call-2 {
+    height: 300px;
+    background-color: white;
+}
