@@ -156,3 +156,14 @@ button {
     font-size: 18px;
     padding: 10px 35px 10px 35px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1F2937;
+    color: #a9acaf;
+    font-family: sans-serif;
+    font-size: 18px;
+}
