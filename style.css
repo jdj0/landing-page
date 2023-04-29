@@ -123,6 +123,7 @@ button {
 
 .philosopher {
     text-align: right;
+    font-family: sans-serif;
 }
 
 .call-2 {
@@ -130,8 +131,28 @@ button {
     background-color: white;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .call-2-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    width: 75%;
+    background-color: #3882F6;
+    border-radius: 15px;
+}
 
+.call-2-text {
+    color: white;
+    font-family: sans-serif;
+}
+
+.c2t {
+    background-color: none;
+    color: white;
+    border: 2px solid white;
+    font-size: 18px;
+    padding: 10px 35px 10px 35px;
 }
